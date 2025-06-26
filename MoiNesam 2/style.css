@@ -1,0 +1,98 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 100vh;
+    font-family: 'Times';
+}
+
+.container {
+    padding-top: 200px;
+    width: 30%;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1574c2;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+
+
+input, select, button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3cff00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.request-card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.status-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.status-form select {
+    flex: 3;
+}
+
+.status-form button {
+    flex: 1;
+}
+
+.error {
+    color: 68bfe7;
+    padding: 10px;
+}
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.status-выполнена {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.status-подтверждена {
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+.status-отменена {
+    color: #68bfe7;
+    font-weight: bold;
+}
+
+.status-новая {
+    color: #6c757d;
+    font-weight: bold;
+}
